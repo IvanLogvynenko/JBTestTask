@@ -1,0 +1,19 @@
+FROM node:22
+
+WORKDIR /app
+
+ENV GITHUB_REPO=IvanLogvynenko/JBTestTask
+ENV YOUTRACK_SERVERNAME=ivanlogvynenko
+ENV YOUTRACK_PROJECT_ID=
+ENV YOUTRACK_PROJECT_NAME=JB
+ENV POLL_INTERVAL=5000
+
+COPY part2.js /app/main.js
+
+COPY package.json package.json
+
+RUN npm install
+
+CMD ["node", "main.js"]
+
+
