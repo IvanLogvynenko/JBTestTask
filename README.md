@@ -1,6 +1,6 @@
 # JBTestTask
 
-(Video)[https://youtu.be/DHSo2JbLcqU?si=WjMXFcV7tyTo5XkJ] in which I explain every design decision and code overall
+[Video](https://youtu.be/DHSo2JbLcqU?si=WjMXFcV7tyTo5XkJ) in which I explain every design decision and code overall
 
 # Part I
 
