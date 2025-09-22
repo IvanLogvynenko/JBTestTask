@@ -119,7 +119,7 @@ setInterval(async () => {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer perm-YWRtaW4=.NDQtMQ==.L6GYzUUNFD12ZLdAzgOCP8ZIde6FqL',
+        'Authorization': 'Bearer ' + config.youtrackToken,
       }
     }
   );
